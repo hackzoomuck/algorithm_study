@@ -13,37 +13,100 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\kakao17">
+      <UniqueIdentifier>{8b038fe6-7946-4152-8310-7bd48ef0367c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\kakao18">
+      <UniqueIdentifier>{57004377-3a03-4137-b6c0-2a43480abd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\nhn">
+      <UniqueIdentifier>{862f48fd-9384-4b4e-b4d0-44fb886bcd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bkj">
+      <UniqueIdentifier>{8275aca5-322f-4c72-a6f4-c31e596adaf7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9613.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="a.cpp">
+      <Filter>소스 파일\kakao17</Filter>
     </ClCompile>
-    <ClCompile Include="1978.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="b.cpp">
+      <Filter>소스 파일\kakao17</Filter>
     </ClCompile>
-    <ClCompile Include="1929.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="c.cpp">
+      <Filter>소스 파일\kakao17</Filter>
     </ClCompile>
-    <ClCompile Include="6588.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="d.cpp">
+      <Filter>소스 파일\kakao17</Filter>
     </ClCompile>
-    <ClCompile Include="2309.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="string_stl_function.cpp">
+      <Filter>소스 파일\kakao17</Filter>
+    </ClCompile>
+    <ClCompile Include="18_3.cpp">
+      <Filter>소스 파일\kakao18</Filter>
+    </ClCompile>
+    <ClCompile Include="nhn모의.cpp">
+      <Filter>소스 파일\nhn</Filter>
     </ClCompile>
     <ClCompile Include="1476.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\bkj</Filter>
     </ClCompile>
-    <ClCompile Include="14500.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1929.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="1978.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="2309.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="6588.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="6603.cpp">
+      <Filter>소스 파일\bkj</Filter>
     </ClCompile>
     <ClCompile Include="9095.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\bkj</Filter>
     </ClCompile>
-    <ClCompile Include="next_permutation.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="9613.cpp">
+      <Filter>소스 파일\bkj</Filter>
     </ClCompile>
     <ClCompile Include="10927.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="14500.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="next_permutation.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao2.cpp">
+      <Filter>소스 파일\kakao18</Filter>
+    </ClCompile>
+    <ClCompile Include="석호필.cpp">
+      <Filter>소스 파일\nhn</Filter>
+    </ClCompile>
+    <ClCompile Include="2667.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="2589.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="7569.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="9095-1.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="1756.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="1182.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="15658.cpp">
+      <Filter>소스 파일\bkj</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
