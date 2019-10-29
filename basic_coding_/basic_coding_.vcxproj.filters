@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\bkj">
       <UniqueIdentifier>{8275aca5-322f-4c72-a6f4-c31e596adaf7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\programmers">
+      <UniqueIdentifier>{a711ae60-4134-42b8-aa7c-f7932725a220}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a.cpp">
