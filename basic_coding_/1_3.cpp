@@ -46,6 +46,11 @@ int solution(string dartResult) {
 		}
 		string num = "";
 		num = dartResult[i];
+
+		//이전 풀이때,
+		//int isdigit(int c);
+		//c : 검사할 문자 또는 아스키 값
+		//반환값 : 문자가 0~9 사이에 속하면 true, 아니면 false
 		while (dartResult[i + 1] >= '0' && dartResult[i + 1] <= '9') {
 			num.append(1, dartResult[i + 1]);
 			i++;
