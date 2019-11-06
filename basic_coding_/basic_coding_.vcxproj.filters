@@ -117,9 +117,6 @@
     <ClCompile Include="1_3.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="2_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
     <ClCompile Include="1759_2.cpp">
       <Filter>소스 파일\bkj</Filter>
     </ClCompile>
@@ -130,6 +127,12 @@
       <Filter>소스 파일\bkj</Filter>
     </ClCompile>
     <ClCompile Include="6603_2.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="14501.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="14888.cpp">
       <Filter>소스 파일\bkj</Filter>
     </ClCompile>
   </ItemGroup>

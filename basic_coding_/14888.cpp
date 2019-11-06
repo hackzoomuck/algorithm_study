@@ -1,4 +1,5 @@
-//15658 연산자끼워넣기(2)
+//14888 연산자 끼워넣기
+//16:25-
 #include <iostream>
 using namespace std;
 
@@ -10,12 +11,12 @@ int n, input;
 
 void go(int index, int total, int plus, int minus, int mul, int div) {
 	//1.불가능
-	if (index > n-1) return;
+	if (plus + minus + mul + div < 0) return;
 
 	//2.정답
-	if (index == n-1) {
+	if (plus + minus + mul + div == 0) {
 		if (fun_min > total) fun_min = total;
-		if (fun_max < total) fun_max = total;
+		if (fun_max < total)fun_max = total;
 		return;
 	}
 
@@ -28,10 +29,10 @@ void go(int index, int total, int plus, int minus, int mul, int div) {
 			go(index + 1, total - number_arr[index + 1], plus, minus - 1, mul, div);
 		}
 		if (i == 2 && mul>0) {
-			go(index + 1, total * number_arr[index + 1], plus, minus, mul - 1, div);
+			go(index + 1, total * number_arr[index + 1], plus , minus, mul - 1, div);
 		}
 		if (i == 3 && div>0) {
-			go(index + 1, total / number_arr[index + 1], plus, minus, mul, div - 1);
+			go(index + 1, total / number_arr[index + 1], plus , minus, mul, div - 1);
 		}
 	}
 
@@ -48,7 +49,7 @@ int main() {
 		oper[i] = input;
 	}
 
-	go(0, number_arr[0], oper[0], oper[1], oper[2], oper[3]);
+	go(0, number_arr[0],oper[0],oper[1],oper[2],oper[3]);
 	cout << fun_max << "\n" << fun_min;
 	return 0;
 }
