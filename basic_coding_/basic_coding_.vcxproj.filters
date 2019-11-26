@@ -171,5 +171,20 @@
     <ClCompile Include="15665.cpp">
       <Filter>소스 파일\bkj</Filter>
     </ClCompile>
+    <ClCompile Include="1260.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="11724.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="1707.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="4963.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
+    <ClCompile Include="2178.cpp">
+      <Filter>소스 파일\bkj</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
