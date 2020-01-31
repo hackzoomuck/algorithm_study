@@ -13,5 +13,34 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\boj">
+      <UniqueIdentifier>{b187d84f-fe86-4093-a369-4e7c5be3fc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\swexpert">
+      <UniqueIdentifier>{0939b13c-08af-4381-b6f6-56a7f21cc4b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="boj_2468안전영역.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
+    <ClCompile Include="boj_2941크로아티아알파벳.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
+    <ClCompile Include="boj_11403경로찾기.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
+    <ClCompile Include="boj1012_유기농배추.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
+    <ClCompile Include="boj10026_적록색약.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
+    <ClCompile Include="boj14226_이모티콘.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
+    <ClCompile Include="swexpert_8821.cpp">
+      <Filter>소스 파일\swexpert</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
