@@ -42,5 +42,17 @@
     <ClCompile Include="swexpert_8821.cpp">
       <Filter>소스 파일\swexpert</Filter>
     </ClCompile>
+    <ClCompile Include="boj_1010다리놓기.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
+    <ClCompile Include="boj_2193이친수.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
+    <ClCompile Include="boj_11053가장긴증가하는부분수열.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
+    <ClCompile Include="boj_11057오르막수.cpp">
+      <Filter>소스 파일\boj</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
